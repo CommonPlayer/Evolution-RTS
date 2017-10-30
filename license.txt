@@ -1,1 +1,1 @@
-All assets are CC BY SA except where otherwise marked (Most LUA falls under GPL, for example).
+All code is LGPL v3, everything else is CC-BY-SA.
