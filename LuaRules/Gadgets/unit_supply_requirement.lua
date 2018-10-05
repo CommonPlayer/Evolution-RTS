@@ -102,8 +102,8 @@ end
 --end
 
 -- Block unit creation
-function gadget:AllowUnitCreation(unitDefID, builderID, builderTeam, x, y, z)
-	return NewUnitIsAllowed(unitDefID, builderTeam)
+function gadget:AllowUnitBuildStep(builderID, builderTeam, unitID, unitDefID, step)
+	return NewUnitIsAllowed(unitDefID, Spring.GetUnitTeam(unitID))
 end
 
 -- Block unit transfer
